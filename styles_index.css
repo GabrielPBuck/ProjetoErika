@@ -1,0 +1,205 @@
+body{
+    margin: 0px;
+    padding: 0px;
+	background-image: url("imagem/bg.png");
+	background-attachment: fixed;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(166,235,235,1.00);    
+    height:10vh;
+    width: 99.1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+main{
+	display: flex;
+	height: 90vh;
+	width: 99.1vw;
+	margin: 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+    margin: 0px;
+    height: 3vh;
+    width: 99.1vw;
+
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.15);
+    color: rgb(34, 156, 156);
+    background-color: rgba(213,245,245,1.00);
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+.nav-logo{
+	margin-left: 5vw;
+	display: flex;
+	align-items: center;
+
+}
+
+.nav-logo img{
+	width: 100px;
+	margin-right: 1vw;
+	transition: transform 0.3s ease-in-out;
+}
+
+.nav-logo img:hover{
+	transform: scale(1.1);
+}
+
+
+.nav-logo a{
+    color: rgb(34, 156, 156);
+    font-size: 1vw;    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);	
+}
+
+.nav-email a{
+	color: rgb(34, 156, 156);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem; 
+	display: inline-block;
+	text-decoration: none;
+}
+
+.nav-txt{
+	margin-right: 5%;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.nav-txt a{
+    display: inline-block;
+    margin-right: 2vw;
+    text-decoration: none;
+    color: rgb(34, 156, 156);
+    font-size: 1.6rem;   
+    transition: transform 0.3s ease-in-out; 
+}
+
+.nav-social{
+	margin-right: 5vw;
+}
+
+.nav-social a{
+    margin-right: 1vw;
+    text-decoration: none;
+    color: rgb(34, 156, 156);
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.nav-txt a:hover,
+.nav-social i:hover { 
+    color: rgb(41, 212, 212);
+    transform: scale(1.2);    
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+.barralateral{ 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(166,235,235,1.00);    
+    margin-top: 1%;
+    margin-left: 2%;
+    height: 86vh;
+    width: 15vw;
+    border-radius: 20px;
+}
+
+.barralateral-txt{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: normal;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.barralateral-txt a{
+    color: rgb(34, 156, 156);
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.barralateral-txt strong{
+	font-size: 1.5vw;
+}
+
+
+
+.barralateral hr{
+    width: 10vw;
+    height: 0.2vh;
+    background-color: rgba(41, 212, 212, 0.37);
+    border-color: transparent;
+    border-radius: 100px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+.conteudocentro{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(235,250,250,1.00);
+    margin-top: 1%;
+    margin-left: 2vw;    
+    height: 86vh;
+    width: 95vw;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.conteudocentro-bg{
+	height: 86vh;
+    width: 95vw;
+	background-image: url("imagem/LogoTeal.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	opacity: 0.1;
+}
+
+
+.conteudocentro-img-txt {
+	    
+    color: rgb(34, 156, 156);
+	display: flex;		
+	height: 73vh;
+	max-height: 73vh;
+	
+	
+}
+.conteudocentro-img-txt img{
+	height: 86vh;
+	width: 40vw;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;	
+}
+
+
+
+.conteudocentro-img-txt a{
+	margin-top: 10vh;
+    font-size: 2vw;
+    color: rgb(34, 156, 156);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	text-decoration: none;
+	width: 35vw;
+	margin-left: 10vw;
+	max-height: 73vh;
+}
+
+
+
+
